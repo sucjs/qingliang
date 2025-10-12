@@ -12,7 +12,7 @@ import Key from "../../i18n/i18nKey";
 import { i18n } from "../../i18n/translation";
 
 // 音乐播放器模式，可选 "local" 或 "meting"，从本地配置中获取或使用默认值 "meting"
-let mode = musicPlayerConfig.mode ?? "meting";
+let mode = musicPlayerConfig.mode ?? "local";
 // Meting API 地址，从配置中获取或使用默认地址(bilibili.uno(由哔哩哔哩松坂有希公益管理)),服务器在海外,部分音乐平台可能不支持并且速度可能慢,也可以自建Meting API
 let meting_api =
 	musicPlayerConfig.meting_api ??
@@ -68,26 +68,50 @@ let volumeBar: HTMLElement;
 const localPlaylist = [
 	{
 		id: 1,
-		title: "ひとり上手",
-		artist: "Kaya",
-		cover: "assets/music/cover/hitori.jpg",
-		url: "assets/music/url/hitori.mp3",
+		title: "感谢你曾来过.flac",
+		artist: "周思涵 Ayo97",
+		cover: "assets/music/cover/i1.jpg",
+		url: "assets/music/url/周思涵 Ayo97 - 感谢你曾来过.flac",
 		duration: 240,
 	},
 	{
 		id: 2,
-		title: "眩耀夜行",
-		artist: "スリーズブーケ",
-		cover: "assets/music/cover/xryx.jpg",
-		url: "assets/music/url/xryx.mp3",
+		title: "III",
+		artist: "Athletics",
+		cover: "assets/music/cover/111.jpg",
+		url: "assets/music/url/Athletics - III.mp3",
 		duration: 180,
 	},
 	{
 		id: 3,
-		title: "春雷の頃",
-		artist: "22/7",
-		cover: "assets/music/cover/cl.jpg",
-		url: "assets/music/url/cl.mp3",
+		title: "7 Years",
+		artist: "Lukas Graham",
+		cover: "assets/music/cover/7y.jpg",
+		url: "assets/music/url/Lukas Graham - 7 Years.mp3",
+		duration: 200,
+	},
+    {
+		id: 4,
+		title: "兰亭序",
+		artist: "周",
+		cover: "assets/music/cover/ltx.jpg",
+		url: "assets/music/url/ltx.mp3",
+		duration: 200,
+	},
+     {
+		id: 5,
+		title: "Memories",
+		artist: "m",
+		cover: "assets/music/cover/mia.jpg",
+		url: "assets/music/url/mm.mp3",
+		duration: 200,
+	},
+     {
+		id: 6,
+		title: "关键词",
+		artist: "gjc",
+		cover: "assets/music/cover/gjc.jpg",
+		url: "assets/music/url/关键词.mp3",
 		duration: 200,
 	},
 ];

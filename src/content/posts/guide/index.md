@@ -1,58 +1,54 @@
 ---
-title: Simple Guides for Mizuki
-published: 2024-04-01
-description: "How to use this blog template."
+title: 中长跑
+published: 2025-10-13
+description: "我要成为中长跑高手！"
 image: "./cover.jpeg"
-tags: ["Mizuki", "Blogging", "Customization"]
-category: Guides
-draft: false
+tags: ["run"]
 ---
 
+## 你站在起跑线前，望着延伸向远方的红色跑道。这不是与别人的竞赛，而是你与自己的对话——中长跑，这项看似单调的运动，藏着太多我们尚未读懂的人生隐喻。
 
-
-This blog template is built with [Astro](https://astro.build/). For the things that are not mentioned in this guide, you may find the answers in the [Astro Docs](https://docs.astro.build/).
-
-## Front-matter of Posts
-
-```yaml
 ---
-title: My First Blog Post
-published: 2023-09-09
-description: This is the first post of my new Astro blog.
-image: ./cover.jpg
-tags: [Foo, Bar]
-category: Front-end
-draft: false
----
-```
 
+脚下的跑道从不言语，却教会我们第一个真理：真正的旅程开始于学会忍耐。
 
+最初几百米总是轻松，双腿充满弹性，呼吸平稳有序。但很快，考验来了——双腿开始沉重，肺部像着了火，脑子里有个声音在说：停下吧，何必受苦。
 
+这多像我们面对每一个艰难决定时的内心挣扎。继续还是放弃？坚持还是妥协？
 
-| Attribute     | Description                                                                                                                                                                                                 |
-|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `title`       | The title of the post.                                                                                                                                                                                      |
-| `published`   | The date the post was published.                                                                                                                                                                            |
-| `pinned`      | Whether this post is pinned to the top of the post list.                                                                                                                                                   |
-| `description` | A short description of the post. Displayed on index page.                                                                                                                                                   |
-| `image`       | The cover image path of the post.<br/>1. Start with `http://` or `https://`: Use web image<br/>2. Start with `/`: For image in `public` dir<br/>3. With none of the prefixes: Relative to the markdown file |
-| `tags`        | The tags of the post.                                                                                                                                                                                       |
-| `category`    | The category of the post.                                                                                                                                                                                   |
-| `licenseName` | The license name for the post content.                                                                                                                                                                      |
-| `author`      | The author of the post.                                                                                                                                                                                     |
-| `sourceLink`  | The source link or reference for the post content.                                                                                                                                                          |
-| `draft`       | If this post is still a draft, which won't be displayed.                                                                                                                                                    |
+中长跑者都懂得“极点”的存在——那个身体与意志同时到达临界点的时刻。奇妙的是，一旦穿越这道无形之门，痛苦依然存在，却不再能主宰你。你发现原来自己可以带着不适前行，就像我们终将学会与生活中的遗憾、失意和平共处。
 
-## Where to Place the Post Files
+坚持不是硬撑着不倒下，而是在摇晃中依然向前。
 
+跑至中程，枯燥袭来。同样的动作重复千百次，前路依旧漫长。此刻，心智的博弈正式开始。
 
+你开始观察内心的变化——焦虑如何升起又消散，念头如何涌现又退去。你学会不再对抗这种重复，而是融入它，成为节奏本身。抬腿、摆臂、呼吸，周而复始，如禅修般纯粹。
 
-Your post files should be placed in `src/content/posts/` directory. You can also create sub-directories to better organize your posts and assets.
+这何尝不是生活的缩影？日复一日的工作，年复一年的责任，看似单调，却暗藏深意。中长跑教会我们在重复中发现新意，在平凡中触摸永恒。
 
-```
-src/content/posts/
-├── post-1.md
-└── post-2/
-    ├── cover.png
-    └── index.md
-```
+那些最深刻的领悟，往往诞生于最单调的节奏里。
+
+赛道最迷人的地方在于，它永远公平。你付出多少，它就回报多少——不会多，也绝不会少。
+
+你为训练流下的每一滴汗，都在比赛中转化为前进的力量。你克制的美食欲望，早睡的夜晚，都成了后来坚持的资本。
+
+这种因果关系如此直接，如此纯粹，在复杂的世界里显得格外珍贵。它提醒我们：生命的奖赏从不会缺席，只会在最恰当的时刻到来。
+
+终于，你看见了最后一个弯道。
+
+所有积累的疲惫瞬间转化为力量，你开始加速。不是因为不再痛苦，而是因为你已经懂得：痛苦不过是身体发出的信号，而非行动的禁令。
+
+冲过终点的那一刻，世界安静下来。你弯腰喘息，汗水滴落在跑道上。没有奖牌，没有欢呼，但你知道，刚刚结束的不仅是一场比赛，更是一场洗礼。
+
+你比出发时更了解自己——知道了自己的边界，也知道了边界之外还有无限可能。
+
+这就是中长跑赠予我们的哲学：人生不是短跑，不需要时时刻刻冲刺；它是一场中长跑，需要的是配速、耐心和清醒。
+
+那些看似漫长的坚持，终将在某个时刻让你明白：最累的时候，往往最接近突破；最想放弃的瞬间，坚持下来就能看到转机。
+
+跑道如镜，照见最真实的自己。它不说话，却回答了一切。
+
+现在，系紧鞋带吧。无论你正在人生的哪个阶段——是艰难的开端、枯燥的中程，还是即将迎来的冲刺——都请记住：前进的每一步都算数，呼吸的每一刻都是新生。
+
+这条跑道，正如你的人生，值得你全力以赴。
+
