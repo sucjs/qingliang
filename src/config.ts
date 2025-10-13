@@ -174,7 +174,7 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 
 export const navBarConfig: NavBarConfig = {
 	links: [
-		LinkPreset.Home,
+		LinkPreset.主页,
 		LinkPreset.Archive,
 		// 支持自定义导航栏链接,并且支持多级菜单,3.1版本新加
 			
@@ -183,7 +183,7 @@ export const navBarConfig: NavBarConfig = {
 			name: "关于",
 			url: "/content/",
 			icon: "material-symbols:info",
-			children: [LinkPreset.About, LinkPreset.Friends],
+			children: [LinkPreset.关于, LinkPreset.Friends],
 		},
 		{
 			 name: "留言",
