@@ -63,7 +63,7 @@ export const siteConfig: SiteConfig = {
 				"/assets/mobile-banner/m5.webp",
 				"/assets/mobile-banner/m6.webp",
 				"/assets/mobile-banner/m7.webp",
-				"/assets/mobile-banner/m8.webp",
+				
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
@@ -174,7 +174,7 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 
 export const navBarConfig: NavBarConfig = {
 	links: [
-		LinkPreset.Home,
+		LinkPreset.主页,
 		LinkPreset.Archive,
 		// 支持自定义导航栏链接,并且支持多级菜单,3.1版本新加
 			
@@ -183,7 +183,7 @@ export const navBarConfig: NavBarConfig = {
 			name: "关于",
 			url: "/content/",
 			icon: "material-symbols:info",
-			children: [LinkPreset.About, LinkPreset.Friends],
+			children: [LinkPreset.关于, LinkPreset.Friends],
 		},
 		
 	],
@@ -202,7 +202,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "douyin",
 			icon: "fa6-brands:tiktok",
-			url: "fa6-brands:tiktok",
+			url: "https://v.douyin.com/eC6lirWhF7Q/ 8@7.com :2pm",
 		},
 		{
 			name: "GitHub",
