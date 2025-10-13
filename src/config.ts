@@ -63,7 +63,7 @@ export const siteConfig: SiteConfig = {
 				"/assets/mobile-banner/m5.webp",
 				"/assets/mobile-banner/m6.webp",
 				"/assets/mobile-banner/m7.webp",
-				"/assets/mobile-banner/m8.webp",
+				
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
@@ -185,6 +185,12 @@ export const navBarConfig: NavBarConfig = {
 			icon: "material-symbols:info",
 			children: [LinkPreset.About, LinkPreset.Friends],
 		},
+		{
+			 name: "留言",
+			 url: "https://sucjs.github.io/qingliang2007.github.io/",
+             external: true,
+			 icon: "material-symbols:mail-outline",
+		},
 		
 	],
 };
@@ -202,7 +208,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "douyin",
 			icon: "fa6-brands:tiktok",
-			url: "fa6-brands:tiktok",
+			url: "https://v.douyin.com/eC6lirWhF7Q/ 8@7.com :2pm",
 		},
 		{
 			name: "GitHub",
