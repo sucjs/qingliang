@@ -174,7 +174,7 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 
 export const navBarConfig: NavBarConfig = {
 	links: [
-		LinkPreset.主页,
+		LinkPreset.Home,
 		LinkPreset.Archive,
 		// 支持自定义导航栏链接,并且支持多级菜单,3.1版本新加
 			
@@ -183,7 +183,7 @@ export const navBarConfig: NavBarConfig = {
 			name: "关于",
 			url: "/content/",
 			icon: "material-symbols:info",
-			children: [LinkPreset.关于, LinkPreset.Friends],
+			children: [LinkPreset.About, LinkPreset.Friends],
 		},
 		{
 			 name: "留言",
@@ -208,7 +208,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "douyin",
 			icon: "fa6-brands:tiktok",
-			url: "https://v.douyin.com/eC6lirWhF7Q/ 8@7.com :2pm",
+			url: "https://v.douyin.com/eC6lirWhF7Q/",
 		},
 		{
 			name: "GitHub",
