@@ -115,7 +115,7 @@ export const siteConfig: SiteConfig = {
 		},
 	},
 	toc: {
-		enable: true, // 启用目录功能
+		enable: false, // 启用目录功能
 		depth: 3, // 目录深度，1-6，1 表示只显示 h1 标题，2 表示显示 h1 和 h2 标题，依此类推
 	},
 	generateOgImages: false, // 启用生成OpenGraph图片功能,注意开启后要渲染很长时间，不建议本地调试的时候开启
@@ -186,8 +186,8 @@ export const navBarConfig: NavBarConfig = {
 			children: [LinkPreset.About, LinkPreset.Friends],
 		},
 		{
-			 name: "留言",
-			 url: "https://sucjs.github.io/qingliang2007.github.io/",
+			 name: "蔷薇树洞",
+			 url: "https://iirose.com/",
              external: true,
 			 icon: "material-symbols:mail-outline",
 		},
@@ -236,10 +236,10 @@ export const expressiveCodeConfig: ExpressiveCodeConfig = {
 };
 
 export const commentConfig: CommentConfig = {
-	enable: false, // 启用评论功能。当设置为 false 时，评论组件将不会显示在文章区域。
+	enable: true, // 启用评论功能。当设置为 false 时，评论组件将不会显示在文章区域。
 	twikoo: {
-		envId: "https://twikoo.vercel.app",
-		lang: "en", // 设置 Twikoo 评论系统语言为英文
+		envId: "https://psay.vercel.app/",
+		lang: "zh_CN", // 设置 Twikoo 评论系统语言为英文
 	},
 };
 
@@ -310,7 +310,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 组件类型：分类组件
 			type: "categories",
 			// 是否启用该组件
-			enable: true,
+			enable: false,
 			// 组件显示顺序
 			order: 3,
 			// 组件位置："sticky" 表示粘性定位，可滚动
@@ -438,10 +438,10 @@ export const widgetConfigs = {
 } as const;
 
 export const umamiConfig = {
-	enabled: false, // 是否显示Umami统计
-	apiKey: "api_XXXXXXXXXX", // 你的API密钥
-	baseUrl: "https://api.umami.is", // Umami Cloud API地址
+	enabled: true, // 是否显示Umami统计
+	apiKey: "api_1Rp5yr7OOMtMPCJemOXuShHvQXxc3omd", // 你的API密钥
+	baseUrl: "https://cloud.umami.is/share/5tVFA2HDt1hENkVN", // Umami Cloud API地址
 	scripts: `
-<script defer src="XXXX.XXX" data-website-id="ABCD1234"></script>
+<script defer src="https://us.umami.is/script.js" data-website-id="270192a6-90de-4013-b24a-4257a4578948"></script>
   `.trim(), // 上面填你要插入的Script,不用再去Layout中插入
 } as const;
