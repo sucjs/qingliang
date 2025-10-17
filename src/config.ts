@@ -93,6 +93,9 @@ export const siteConfig: SiteConfig = {
 				"坚持不是凡蛊，因为坚持本就不凡",
 				"27步天注定",
 				"逆流河上我独行",
+				"没有天赋 那就反复",
+				"自如秋末残枝叶，命由风去不由身。",
+
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
@@ -134,7 +137,7 @@ export const siteConfig: SiteConfig = {
 			enable: true, // 启用全局圆体适合日语和英语，对中文适配一般
 		},
 		hanalei: {
-			enable: false, // 启用 Hanalei 字体作为全局字体，适合中文去使用
+			enable: true, // 启用 Hanalei 字体作为全局字体，适合中文去使用
 		},
 	},
 	showLastModified: true, // 控制“上次编辑”卡片显示的开关
@@ -440,7 +443,7 @@ export const widgetConfigs = {
 export const umamiConfig = {
 	enabled: true, // 是否显示Umami统计
 	apiKey: "api_1Rp5yr7OOMtMPCJemOXuShHvQXxc3omd", // 你的API密钥
-	baseUrl: "https://cloud.umami.is/share/5tVFA2HDt1hENkVN", // Umami Cloud API地址
+	baseUrl: "https://us.umami.is/share/5tVFA2HDt1hENkVN", // Umami Cloud API地址
 	scripts: `
 <script defer src="https://us.umami.is/script.js" data-website-id="270192a6-90de-4013-b24a-4257a4578948"></script>
   `.trim(), // 上面填你要插入的Script,不用再去Layout中插入
