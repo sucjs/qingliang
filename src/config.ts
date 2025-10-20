@@ -445,6 +445,5 @@ export const umamiConfig = {
 	apiKey: "api_1Rp5yr7OOMtMPCJemOXuShHvQXxc3omd", // 你的API密钥
 	baseUrl: "https://us.umami.is/share/5tVFA2HDt1hENkVN", // Umami Cloud API地址
 	scripts: `
-<script defer src="https://us.umami.is/script.js" data-website-id="270192a6-90de-4013-b24a-4257a4578948"></script>
-  `.trim(), // 上面填你要插入的Script,不用再去Layout中插入
+<script defer src="https://cloud.umami.is/script.js" data-website-id="270192a6-90de-4013-b24a-4257a4578948"></script> `.trim(), // 上面填你要插入的Script,不用再去Layout中插入
 } as const;
