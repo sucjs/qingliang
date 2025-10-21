@@ -1,5 +1,5 @@
 ---
-title: 语录
+title: 鸡汤
 published: 2025-10-11
 description: 人生海海，不过尔尔
 tags: [quotation]

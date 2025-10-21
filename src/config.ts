@@ -239,7 +239,7 @@ export const expressiveCodeConfig: ExpressiveCodeConfig = {
 };
 
 export const commentConfig: CommentConfig = {
-	enable: true, // 启用评论功能。当设置为 false 时，评论组件将不会显示在文章区域。
+	enable: false, // 启用评论功能。当设置为 false 时，评论组件将不会显示在文章区域。
 	twikoo: {
 		envId: "https://psay.vercel.app/",
 		lang: "zh_CN", // 设置 Twikoo 评论系统语言为英文
@@ -248,7 +248,7 @@ export const commentConfig: CommentConfig = {
 
 export const announcementConfig: AnnouncementConfig = {
 	title: "Announcement", // 公告标题
-	content: "Welcome to my blog! This is a sample announcement.", // 公告内容
+	content: "Welcome to my blog! 你好", // 公告内容
 	closable: true, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
@@ -443,7 +443,7 @@ export const widgetConfigs = {
 export const umamiConfig = {
 	enabled: true, // 是否显示Umami统计
 	apiKey: "api_1Rp5yr7OOMtMPCJemOXuShHvQXxc3omd", // 你的API密钥
-	baseUrl: "https://us.umami.is/share/5tVFA2HDt1hENkVN", // Umami Cloud API地址
+	baseUrl: "https://api.umami.is", // Umami Cloud API地址
 	scripts: `
 <script defer src="https://cloud.umami.is/script.js" data-website-id="270192a6-90de-4013-b24a-4257a4578948"></script> `.trim(), // 上面填你要插入的Script,不用再去Layout中插入
 } as const;
