@@ -1,0 +1,155 @@
+/* 从原始 index.html 提取并保留的样式（仅作用于文章内的笔记墙示例） */
+.notes-demo * {
+    box-sizing: border-box;
+}
+
+.notes-demo body {}
+
+.notes-demo #board {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+/* 为便签墙容器添加边框、圆角与内边距 */
+.notes-demo #board {
+    border: 3px solid rgba(209, 167, 173, 0.975);
+    border-radius: 12px;
+    padding: 12px;
+    background: rgba(246, 157, 185, 0.12);
+}
+
+.notes-demo .card {
+    position: absolute;
+    width: 220px;
+    border-radius: 12px;
+    box-shadow: 0 16px 35px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    opacity: 0;
+    transform-origin: center;
+    transition: transform 0.35s ease, opacity 0.35s ease, left 0.35s ease,
+        top 0.35s ease, width 0.35s ease, height 0.35s ease,
+        border-radius 0.35s ease;
+}
+
+.notes-demo .card.dragging {
+    transition: none;
+    box-shadow: 0 22px 45px rgba(0, 0, 0, 0.35);
+}
+
+.notes-demo .card.maximized {
+    box-shadow: 0 28px 60px rgba(0, 0, 0, 0.4);
+}
+
+.notes-demo .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 12px;
+    background: rgba(255, 255, 255, 0.7);
+    cursor: grab;
+    user-select: none;
+    touch-action: pan-y;
+}
+
+.notes-demo .card-header.dragging {
+    cursor: grabbing;
+}
+
+.notes-demo .window-controls {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.notes-demo .window-controls .control {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    background: #ccc;
+    cursor: pointer;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+}
+
+.notes-demo .window-controls .control.close {
+    background: #ff5f57;
+    border-color: #e0443e
+}
+
+.notes-demo .window-controls .control.minimize {
+    background: #febb2e;
+    border-color: #dea123
+}
+
+.notes-demo .window-controls .control.maximize {
+    background: #28c840;
+    border-color: #1aab2c
+}
+
+.notes-demo .window-controls .control::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.2s
+}
+
+.notes-demo .card-header:hover .window-controls .control::after {
+    opacity: 0.8
+}
+
+.notes-demo .window-controls .control.close::after {
+    content: '×';
+    font-size: 10px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.7)
+}
+
+.notes-demo .window-controls .control.minimize::after {
+    width: 6px;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.6)
+}
+
+.notes-demo .card-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.55);
+    padding-left: 10px;
+    flex: 1
+}
+
+.notes-demo .card-body {
+    padding: 16px;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.72)
+}
+
+@media (max-width:768px) {
+    .notes-demo .card {
+        width: 180px;
+        border-radius: 10px
+    }
+
+    .notes-demo .card-body {
+        padding: 14px;
+        font-size: 14px
+    }
+
+    .notes-demo .card-title {
+        font-size: 12px
+    }
+}
